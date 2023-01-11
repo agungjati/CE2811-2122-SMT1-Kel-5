@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.8)  11 JAN 2023 19:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.1.8)  11 JAN 2023 20:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/agung-kuliah/Documents/CE2811-2122-SMT1-Kel-5/Laporan/main.tex
-(/home/agung-kuliah/Documents/CE2811-2122-SMT1-Kel-5/Laporan/main.tex
+**/home/agung-kuliah/Documents/CE2811-2122-SMT1-Kel-5/Laporan/laporan.tex
+(/home/agung-kuliah/Documents/CE2811-2122-SMT1-Kel-5/Laporan/laporan.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
@@ -124,8 +124,8 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count182
 \l__pdf_internal_box=\box47
-) (/home/agung-kuliah/Documents/CE2811-2122-SMT1-Kel-5/Laporan/main.aux)
-\openout1 = `main.aux'.
+) (/home/agung-kuliah/Documents/CE2811-2122-SMT1-Kel-5/Laporan/laporan.aux)
+\openout1 = `laporan.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
@@ -253,17 +253,17 @@ Before submitting the final camera ready copy, remember to:
 
 [4
 
-] (/home/agung-kuliah/Documents/CE2811-2122-SMT1-Kel-5/Laporan/main.aux) ) 
+] (/home/agung-kuliah/Documents/CE2811-2122-SMT1-Kel-5/Laporan/laporan.aux) ) 
 Here is how much of TeX's memory you used:
  2049 strings out of 483183
- 35592 string characters out of 5966293
- 275536 words of memory out of 5000000
+ 35622 string characters out of 5966293
+ 275545 words of memory out of 5000000
  17078 multiletter control sequences out of 15000+600000
  570014 words of font info for 87 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 31i,11n,26p,953b,318s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 31i,11n,26p,956b,318s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/agung-kuliah/Documents/CE2811-2122-SMT1-Kel-5/Laporan/main.pdf (4 pages, 410460 bytes).
+Output written on /home/agung-kuliah/Documents/CE2811-2122-SMT1-Kel-5/Laporan/laporan.pdf (4 pages, 410460 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  33 compressed objects within 1 object stream
