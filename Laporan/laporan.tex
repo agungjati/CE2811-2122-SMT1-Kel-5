@@ -67,45 +67,42 @@ Dengan menggunakan NodeMCU ESP32, kita bisa dengan mudah mengintegrasikan berbag
 \end{figure}
     NodeMCU berfungsi sama seperti Arduino, walaupun dengan IC, GPIO, dan Bahasa program yang digunakan berbeda tetapi tujuannya sama yaitu untuk mengontrol suatu system, dan kelebihannya dibandingkan arduino yaitu telah include dengan module Wifi yang tertanam pada systemnya.
 
+\vspace{5cm}
+\section{Hasil dan Pembahasan}
+\subsection{Flowcart Bot Telegram}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.15\textwidth]{telegrambot.png}
+    \caption{Flowchart Bot Telegram}
+\end{figure}
 
-    \section{Hasil dan Pembahasan}
-    \subsection{Flowcart Bot Telegram}
-    \begin{figure}[h]
-        \centering
-        \includegraphics[width=0.06\textwidth]{telegrambot.png}
-        \caption{Flowchart Bot Telegram}
-    \end{figure}
-    \vspace{2cm}
-    
-    \subsection{Flowchart NodeMCU}
-    \begin{figure}[h]
-        \centering
-        \includegraphics[width=0.2\textwidth]{telegrambot.drawio.png}
-        \caption{Flowchart NodeMCU}
-    \end{figure}
-    \vspace{1cm}
+\subsection{Flowchart NodeMCU}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.21\textwidth]{telegrambot.drawio.png}
+    \caption{Flowchart NodeMCU}
+\end{figure}
+\vspace{1cm}
 \subsection{Cara Kerja Program}
 Langkah-langkah untuk mengembangkan program tercantum di bawah ini. Inisialisasi CTBot setelah memberikan token atau bot API. h perpustakaan. Untuk mengirim data NodeMCU ke Telegram Bot API, buat sebuah fungsi.
 Cara Menggunakan Grup Bot Telegram 8 Tekan tombol /start atau ketik /start ke bilah alamat bot telegram. Daftar perintah yang dapat digunakan oleh bot kemudian akan dikirimkan melalui pesan.
 Untuk mulai memindai dan menentukan kekuatan sinyal WiFi, ketikkan perintah /scan.
 Setelah itu, NodeMCU akan mulai memindai dan membaca data, yang kemudian akan dikirim ke API bot Telegram.
-    \subsection{Hasil Pengukuran}
-    \subsubsection{Hasil Pengukuran Di Dalam Ruangan}
-    Berikut ini perhitungan menggunakan persamaan RSSI 
-    pada jaringan wireless yang ada disekitar rumah terhadap pengahalang
- 
+\subsection{Hasil Pengukuran}
+\subsubsection{Hasil Pengukuran Di Dalam Kampus}
+Berikut ini perhitungan menggunakan persamaan RSSI 
+pada jaringan wireless yang ada disekitar kampus terhadap pengahalang
+
     \begin{table}[htbp]
         \caption{Table Analisis Pengukuran RSSI}
         \begin{center}
-        \begin{tabular}{|c|c|c|}
+        \begin{tabular}{|c|c|}
             \hline
-        \textbf{SSID}&\textbf{\textit{RSSI}}& \textbf{\textit{Penerima Sinyal}} \\
+        \textbf{SSID}& \textbf{\textit{Penerima Sinyal}} \\
+        \hline        
+        Student Iteba  & -82 dBm   \\
         \hline
-        AY 6 & -37 dBm & 100  \\
-        \hline
-        Azmi & -51 dBm & 98  \\
-        \hline
-        Bramantya & -92 dBm & 16   \\
+        Dosen Iteba2 & -81 dBm   \\        
         \hline
         \multicolumn{3}{l}{$^{\mathrm{1}}$Hasil scanning Nodemcu Ke Telegram Bot}
         \end{tabular}
@@ -113,46 +110,7 @@ Setelah itu, NodeMCU akan mulai memindai dan membaca data, yang kemudian akan di
         \end{center}
         \end{table}
 
-        \subsubsection{Hasil Pengukuran Diluar rumah}
-        Berikut ini perhitungan menggunakan persamaan RSSI 
-    pada jaringan wireless yang ada diluar rumah
-     terhadap pengahalang seperti pepohonan dan intervensi objek lain nya dengan studi kasus dimana dalam 1 access
-     point dibagi menjadi beberapa SSID pada tabel berikut ini : 
-    
-     \begin{table}[htbp]
-        \caption{Table Analisis Pengukuran RSSI}
-        \begin{center}
-        \begin{tabular}{|c|c|c|}
-            \hline
-        \textbf{SSID} &  \textbf{\textit{Penerimaan Sinyal}}& \textbf{\textit{RSSI}} \\
-        \hline
-        AY  & 62 & -69 dBm   \\
-        \hline
-        Azmi & 58 & -71 dBm   \\
-        \hline
-        Dayat & 26 & -87 dBm   \\
-        \hline
-        210701  & 36 & -82 dBm   \\
-        \hline
-        NAURA ASSYFA  & 20 & -90 dBm   \\
-        \hline
-        Cahya & 18 & -91 dBm   \\
-        \hline
-        Bramantya  & 18 & -91 dBm   \\
-        \hline
-        220601  & 14 & -93 dBm   \\
-        \hline
-        Test  & 14 & -93 dBm   \\
-        \hline
-        210802  & 14 & -93 dBm   \\
-        \hline
-    
-        \multicolumn{3}{l}{$^{\mathrm{2}}$Hasil scanning Nodemcu Ke Telegram Bot}
-        \end{tabular}
-        \label{tab2}
-        \end{center}
-        \end{table}
-    
+      
 
         \subsection{Percobaan Telegram Bot}
         Berikut ini adalah hasil percobaan menggunakan telegram bot.

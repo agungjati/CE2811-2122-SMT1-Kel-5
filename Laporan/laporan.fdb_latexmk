@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1673442154 "/home/agung-kuliah/Documents/CE2811-2122-SMT1-Kel-5/Laporan/laporan.tex" "/home/agung-kuliah/Documents/CE2811-2122-SMT1-Kel-5/Laporan/laporan.pdf" "laporan" 1673442154
+["pdflatex"] 1673449539 "/home/agung-kuliah/Documents/CE2811-2122-SMT1-Kel-5/Laporan/laporan.tex" "/home/agung-kuliah/Documents/CE2811-2122-SMT1-Kel-5/Laporan/laporan.pdf" "laporan" 1673449539
   "/etc/texmf/web2c/texmf.cnf" 1673194547 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/agung-kuliah/Documents/CE2811-2122-SMT1-Kel-5/Laporan/laporan.aux" 1673442154 2555 5a741855c712dd512b018b32ed0f760f ""
-  "/home/agung-kuliah/Documents/CE2811-2122-SMT1-Kel-5/Laporan/laporan.tex" 1673442154 11077 5c19e2fd198d333d36698aca8e2fa18e ""
+  "/home/agung-kuliah/Documents/CE2811-2122-SMT1-Kel-5/Laporan/laporan.aux" 1673449539 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/home/agung-kuliah/Documents/CE2811-2122-SMT1-Kel-5/Laporan/laporan.tex" 1673449538 9667 a4362adfceb09c319c308c1041a161de ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -52,8 +52,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1673196839 128028 f533b797fba58d231669ea19e894e23e ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1673196844 4791331 9bf5f2d44dec715c7f2645f3591abefa ""
-  "laporan.aux" 1673442154 2555 5a741855c712dd512b018b32ed0f760f "pdflatex"
-  "laporan.tex" 1673442154 11077 5c19e2fd198d333d36698aca8e2fa18e ""
+  "laporan.aux" 0 -1 0 "pdflatex"
+  "laporan.tex" 1673449538 9667 a4362adfceb09c319c308c1041a161de ""
   "picture/botfather.jpeg" 1673441762 138773 20be40fb4fb5427c331121dc6f1b6022 ""
   "picture/nodemcu.jpg" 1673441574 49935 2131813d7f95ead95c3a0214353d6d6e ""
   "picture/telegrambot.drawio.png" 1673441574 24258 6096c5cd11aec04d4e84f628326f373f ""
